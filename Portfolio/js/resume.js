@@ -26,3 +26,7 @@
   });
 
 })(jQuery); // End of use strict
+
+function toggleDetails(card) {
+  card.classList.toggle('expanded');
+}
